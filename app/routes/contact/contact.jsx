@@ -119,7 +119,7 @@ export const Contact = () => {
               as="h1"
               style={getDelay(tokens.base.durationXS, initDelay, 0.3)}
             >
-              <DecoderText text="Say hello" start={status !== 'exited'} delay={300} />
+              <DecoderText text="Envoyer moi un message :)" start={status !== 'exited'} delay={300} />
             </Heading>
             <Divider
               className={styles.divider}
@@ -139,7 +139,7 @@ export const Contact = () => {
               data-status={status}
               style={getDelay(tokens.base.durationXS, initDelay)}
               autoComplete="email"
-              label="Your email"
+              label="Votre email"
               type="email"
               name="email"
               maxLength={MAX_EMAIL_LENGTH}
@@ -192,7 +192,7 @@ export const Contact = () => {
               icon="send"
               type="submit"
             >
-              Send message
+              envoi du message
             </Button>
           </Form>
         )}
@@ -206,7 +206,7 @@ export const Contact = () => {
               className={styles.completeTitle}
               data-status={status}
             >
-              Message Sent
+              Message Envoyé
             </Heading>
             <Text
               size="l"
@@ -215,7 +215,7 @@ export const Contact = () => {
               data-status={status}
               style={getDelay(tokens.base.durationXS)}
             >
-              I’ll get back to you within a couple days, sit tight
+              Une réponse arrivera dans la semaine.
             </Text>
             <Button
               secondary
@@ -226,7 +226,7 @@ export const Contact = () => {
               href="/"
               icon="chevron-right"
             >
-              Back to homepage
+              Revenir à l'accueil
             </Button>
           </div>
         )}

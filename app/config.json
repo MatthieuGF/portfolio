@@ -1,11 +1,11 @@
 {
-  "name": "Hamish Williams",
-  "role": "Designer",
-  "disciplines": ["Developer", "Prototyper", "Animator", "Illustrator", "Modder"],
+  "name": "Matthieu Geiger Fonval",
+  "role": "Technicien",
+  "disciplines": ["système", "réseau", "support", "helpdesk", "Modélisateur", "Artiste"],
   "url": "https://hamishw.com",
   "bluesky": "hamishw.com",
   "figma": "@Hamish",
-  "github": "HamishMW",
-  "repo": "https://github.com/HamishMW/portfolio",
+  "github": "MatthieuGF",
+  "repo": "https://github.com/MatthieuGF",
   "ascii": "__  __  __\n\u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215\n"
 }

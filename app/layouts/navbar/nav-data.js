@@ -2,15 +2,15 @@ import config from '~/config.json';
 
 export const navLinks = [
   {
-    label: 'Projects',
+    label: 'Projets',
     pathname: '/#project-1',
   },
   {
-    label: 'Details',
+    label: 'Infos',
     pathname: '/#details',
   },
   {
-    label: 'Articles',
+    label: 'Stages',
     pathname: '/articles',
   },
   {
@@ -22,12 +22,12 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Bluesky',
-    url: `https://bsky.app/profile/${config.bluesky}`,
+    url: `https://www.linkedin.com/in/matthieu-geiger-fonval-028922226/`,
     icon: 'bluesky',
   },
   {
     label: 'Figma',
-    url: `https://www.figma.com/${config.figma}`,
+    url: `https://github.com/MatthieuGF`,
     icon: 'figma',
   },
   {

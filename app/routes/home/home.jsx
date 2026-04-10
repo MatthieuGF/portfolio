@@ -103,9 +103,9 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
+        title="Projets GNS3 :"
+        description="Projets pour E5 - Support et mise à disposition de services informatiques BTS SIO. "
+        buttonText="Voir projets"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
@@ -124,10 +124,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="Entreprise(s) & stage(s) :"
+        description="Site internet de l’entreprise au sein de laquelle j’ai effectué mon stage le plus récent."
+        buttonText="Voir site"
+        buttonLink="https://frenchconnexion.studio/"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -148,9 +148,9 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
+        title="Mes projets"
+        description="Liste des différents projets professionnelles et personnelles réalisés"
+        buttonText="Voir les projets"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
